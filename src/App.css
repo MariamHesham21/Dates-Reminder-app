@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #242424;
+    color:white;
+}
+
+span {
+    color: #C69CF4;
+    font: 14px;
+}
+
+.App{
+    margin-left:21rem;
+    margin-top: 6rem; 
+}
+
+.Square{
+    background-color: #545454;
+    width: 750px;
+    height: 450px;  
+    border: 1px solid;
+    border-color: #545454;
+    border-radius: 2rem;
+}
+
+.box{
+    display: flex;
+    border-bottom: 5px solid;
+    border-color: #452C4B;
+}
+
+.Square .box img{
+    width: 10%;
+}
+
+img {
+    border-radius: 8px;
+    margin:1rem;
+    margin-left: 3rem;
+}
+
+.Text{
+    text-align: center;
+    margin-top: 1.1rem;
+    font-size: 1.1rem;
+}
+
+.null{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+button{
+    padding: 12px 28px;
+    color: white;
+    border-color: #452C4B;
+    background-color: #452C4B;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left:10rem ;     
+}
+
+@media (max-width:768px){
+    .App{
+        margin-left:4rem;
+        margin-top:3rem; 
+    }  
+
+    .Square{
+        background-color: #545454;
+        width: 390px;
+        height: 450px;  
+        border: 1px solid;
+    }
+
+    button{
+        margin-left:3rem ;
+        font-size: 12px;
+    }
+
+    .Square .box img{
+        width: 15%;
+    }
+
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1199px){
+
+}
